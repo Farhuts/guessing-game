@@ -1,21 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>Guessing Game</title>
     <link rel="stylesheet" href="main.css">
-    <!-- the MAIN.CSS file is linked here -->
+    <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
   </head>
-
   <body>
+    <div class = 'main'>
+      <div class="background-image"></div>
+      <header class="page-header">
+        <h1 id="h1">Play the Guessing Game! </h1>
+      </header>
 
+        <h2 id="message"> Guess a number between 1-100!</h2>
 
+        <input type='text' id="input" placeholder="#">
+        <button id = 'submitGuess'>Push</button>
 
+        <p></p>
+          <input type="text" class="output-num">
+          <input type="text" class="output-num">
+          <input type="text" class="output-num">
+          <input type="text" class="output-num">
+          <input type="text" class="output-num">
+        <p></p>
 
+        <button class="btn-reset" id="Reset">Play Again</button>
+        <button class="btn-hint" id="Hint">Hint</button>
 
-    <!-- <script src='js/guessing-game.js'></script> -->
+    </div>
+    <script src='js/guessing-game.js'></script>
     <!-- uncomment the script tag above when you are ready to add JavaScript to your document -->
   </body>
-
 </html>

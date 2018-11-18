@@ -1,1 +1,91 @@
-/* Write your CSS code in this file */
+body{
+  text-align: center;
+  margin-top: 3%;
+  background-image: url('number_cover.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  color: #5b5757;
+  font-family: 'Fascinate Inline';
+  font-weight: bold;
+  font-size: 28px;
+  text-shadow: 4px 4px white;
+}
+h2{
+  margin-top: -2%;
+  color: #966969;
+  font-family: 'Quicksand';
+  font-size: 28px;
+  text-shadow: 2px 2px white;
+}
+
+#input{
+  width: 130px;
+  height: 30px;
+  margin-top: 3%;
+  padding: 30px;
+  font-size: 35px;
+  font-family: 'Fascinate Inline';
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid #636262;;
+  border-radius: 85px 15px;
+  box-shadow: 1 2px #f3e1f4;
+}
+#submitGuess{
+  font-family: 'Quicksand';
+  margin: -25px -25px;
+  border-radius: 15px 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  color: white;
+  background-color: #7f7575;
+}
+
+.output-num{
+  font-family: 'Fascinate Inline';
+  width: 70px;
+  height: 50px;
+  border: 2px solid #636262;
+  font-size: 25px;
+  border-radius: 15px 25px;
+  margin-top: 8px;
+  /* padding: 8px 2px; */
+  text-align: center;
+  margin-top: 3%;
+}
+
+.btn-reset{
+  margin-top: 10px;
+  padding: 10px 12px;
+  font-family: 'Quicksand';
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-color: #633131;
+  border: none;
+  border-radius: 25px 25px;
+  margin-bottom: 5%;
+}
+
+.btn-hint{
+  margin-top: 10px;
+  padding: 10px 12px;
+  font-family: 'Quicksand';
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  /* text-shadow: 1px 1px white; */
+  background-color: #383d33;
+  border: none;
+  border-radius: 20px 20px;
+  /* box-shadow: 0 2px #f3e1f4; */
+  margin-bottom: 5%;
+}
